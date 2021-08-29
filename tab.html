@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <title>Productivity Calendar</title>
+        <div>
+            <button id="switch_mode">SWITCH MODE</button>
+        </div>
+        <div id="calendar_layout" style="display: none">
+            <h1 id="month_year"></h1>
+            <div id="container"></div>
+        </div>
+        <div id="today_timer" style="display: none; vertical-align: top; margin: 0px; padding: 0px;">
+            HR(S) WORKED TODAY: <span style="color:red;" id="num_hrs_today"></span>
+        </div>
+        <div style="width:100%; height:100%; margin-top: 24px;">
+            <button id="start_timer">START DEEP WORK</button>
+        </div>
+        <script src="calendar.js"></script>
+    </body>
+</html>

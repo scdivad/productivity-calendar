@@ -1,0 +1,96 @@
+body {
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+h1 {
+    text-align: center;
+    font-size: 42px;
+    margin-top: 12px;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+#switch_mode {
+    width: 12%;
+    background-color: #d3d3d3;
+    padding: 12px;
+    font-size: 14px;
+    text-align: center;
+}
+
+#today_timer {
+    display: none;
+    font-size: 11vw;
+    text-align: center;
+    margin: 24px;
+}
+
+#start_timer {
+    width: 100%;
+    background-color: #d3d3d3;
+    height: 64px;
+    font-size: 18px;
+    margin: 0 auto;
+    display: block;
+}
+
+:root {
+    --grid-cols: 1;
+    --grid-rows: 1;
+}
+
+#container {
+    display: grid;
+    grid-gap: 1em;
+    grid-template-rows: repeat(var(--grid-rows), 1fr);
+    grid-template-columns: repeat(var(--grid-cols), 1fr);
+
+    max-width:100%
+}
+
+.grid-item {
+    height: 28px;
+    text-align: center;
+    font-size: 18px;
+    padding: 1em;
+    display: grid;
+    place-items: center;
+}
+
+
+/* Tooltip container */
+.tooltip {
+    position: relative;
+    display: inline-block;
+
+    height: 28px;
+    text-align: center;
+    font-size: 18px;
+    padding: 1em;
+    display: grid;
+    place-items: center;
+
+    width:75%;
+    float:none;
+    margin:0 auto;
+    min-height:0;
+}
+  
+  /* Tooltip text */
+.tooltip .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    padding: 5px 0;
+    border-radius: 6px;
+
+    /* Position the tooltip text - see examples below! */
+    position: absolute;
+    z-index: 1;
+}
+  
+  /* Show the tooltip text when you mouse over the tooltip container */
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+}
