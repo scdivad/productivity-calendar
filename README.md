@@ -1,4 +1,4 @@
-# productivity-calendar
+# Productivity Calendar
 Chrome extension that tracks how you work each day. Replaces the default new tab screen (Google Search).
 
 Clicking the start work button starts a timer and will add time to the current day and stop the timer after it is clicked again:
