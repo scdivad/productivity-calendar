@@ -4,7 +4,7 @@ Chrome extension that tracks how you work each day. Replaces the default new tab
 The darker the hue of the day, the more you have worked that day. You can hover over a particular day to see the amount of time worked on that day in HH:MM:SS.
 ![alt text](https://github.com/scdivad/productivity-calendar/blob/main/sampleImages/sample1.png)
 
-Clicking the start work button starts a timer and will add time to the current day and stop the timer after it is clicked again:
+Clicking the start work button starts the timer. The next click will stop the timer and add the elapsed time to the current day.
 ![alt text](https://github.com/scdivad/productivity-calendar/blob/main/sampleImages/sample3.png)
 
 View today option shows the number of hours worked today instead of the entire month:
